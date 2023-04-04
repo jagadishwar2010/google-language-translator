@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class TranslationController extends Controller
 {
-    public function translate(Request $request)
+    public function translate(Request $request): array
     {
         $translate = new TranslateClient();
 
